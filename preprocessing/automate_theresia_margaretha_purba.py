@@ -20,8 +20,6 @@ def preprocess_titanic(
     random_state: int = 42
 ):
     # Load data
-    from google.colab import files
-    files.upload()
     df = pd.read_csv(input_csv)
     df = df.copy()
 
